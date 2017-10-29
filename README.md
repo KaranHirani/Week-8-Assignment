@@ -23,11 +23,13 @@ Vulnerability #2: __________________
 
 ## Green
 
-Vulnerability #1: This vulnerability makes it such that if you type in a known username and type in any wrong password, they error message will be in bold.  If you type in a unknown username, or a username not in the SQL database, then the error message will not be in bold.  This exploit makes it easy for a hacker to find what usernames are actually in the system and which ones are not.
+Vulnerability #1: Username Enumeration: This vulnerability makes it such that if you type in a known username and type in any wrong password, they error message will be in bold.  If you type in a unknown username, or a username not in the SQL database, then the error message will not be in bold.  This exploit makes it easy for a hacker to find what usernames are actually in the system and which ones are not.  If you type in a username like: jmonroe99, this will show up as bold, but if you type in a username like: test, this will not show up as bold.
+
 GIF Walkthrough:  <img src="https://github.com/KaranHirani/Week-7-Project/blob/master/assignment7_3.gif?raw=true" alt="Girl in a jacket">
 
-Vulnerability #2: __________________
+Vulnerability #2:  Cross-Site Scripting: This vulnerability causes the browser to create a popup when you click on the feedback link in the login page.  To recreate this exploit, go to the feedback page and type in any name and email and type in the following code:   `<script>alert('Karan found the XSS!');</script>` When you go to the login page and click feed back, you will get a popup from the browser.
 
+GIF Walkthrough:  <img src="https://github.com/KaranHirani/Week-7-Project/blob/master/assignment7_3.gif?raw=true" alt="Girl in a jacket">
 
 ## Red
 
