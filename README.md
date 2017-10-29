@@ -33,7 +33,9 @@ GIF Walkthrough:  <img src="https://github.com/KaranHirani/Week-7-Project/blob/m
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference: This vulnerability allows you to view sales people who should not be on the page.  If you go to the blue or green site and click on any of the sales people and change the id to 10 or 11, nothing will pop up.  If you go to the red site, however, and click on a sales person and change id to 10 or 11, you will see two sales people who should not be visible.
+
+GIF Walkthrough:  <img src="https://github.com/KaranHirani/Week-7-Project/blob/master/assignment7_3.gif?raw=true" alt="Girl in a jacket">
 
 Vulnerability #2: __________________
 
