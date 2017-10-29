@@ -23,7 +23,8 @@ Vulnerability #2: __________________
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: This vulnerability makes it such that if you type in a known username and type in any wrong password, they error message will be in bold.  If you type in a unknown username, or a username not in the SQL database, then the error message will not be in bold.  This exploit makes it easy for a hacker to find what usernames are actually in the system and which ones are not.
+GIF Walkthrough:  <img src="https://github.com/KaranHirani/Week-7-Project/blob/master/assignment7_3.gif?raw=true" alt="Girl in a jacket">
 
 Vulnerability #2: __________________
 
