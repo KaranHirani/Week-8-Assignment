@@ -1,6 +1,6 @@
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -41,9 +41,9 @@ Vulnerability #1: Insecure Direct Object Reference: This vulnerability allows yo
 
 GIF Walkthrough:  <img src="https://github.com/KaranHirani/Week-8-Assignment/blob/master/assignment8_3.gif?raw=true" alt="Girl in a jacket">
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Request Forgery: This vulnerability allows you to change sales person data with changing the CSRF tocken in inspect element.  In thre green site, if you change the CSRF to anything else, it will give you an error.  If you change it on the red site, you are still able to change the data.
+
+GIF Walkthrough:  <img src="https://github.com/KaranHirani/Week-8-Assignment/blob/master/assignment8_6.gif?raw=true" alt="Girl in a jacket">
 
 
-## Notes
 
-Describe any challenges encountered while doing the work
